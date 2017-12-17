@@ -3,7 +3,7 @@ package org.comlev.factograph.common;
 import java.util.List;
 
 /**
- * Container for matched lines.
+ * Container for matched line.
  *
  * @author <a href="mailto:AlexKomlev@gmail.com">Aleksey Komlev</a>
  * @version 17.12.2017
