@@ -4,10 +4,10 @@ import java.util.HashMap;
 import java.util.Map;
 
 /**
- * .
+ * Helper that transform bytes to rus characters.
  *
  * @author <a href="mailto:AlexKomlev@gmail.com">Aleksey Komlev</a>
- * @version 18.11.2017
+ * @version 17.12.2017
  */
 public class CharsetHelper {
     static Map<Integer, String> chars = new HashMap<>();

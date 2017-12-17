@@ -5,28 +5,22 @@ import org.apache.commons.compress.archivers.ArchiveInputStream;
 import org.apache.commons.compress.archivers.ArchiveStreamFactory;
 import org.apache.commons.compress.archivers.zip.ZipArchiveEntry;
 import org.apache.commons.compress.archivers.zip.ZipFile;
-import org.apache.tika.parser.txt.CharsetDetector;
 import org.comlev.factograph.common.*;
 
 import java.io.*;
-import java.net.URLEncoder;
-import java.nio.ByteBuffer;
 import java.nio.charset.Charset;
-import java.nio.file.Files;
 import java.nio.file.Path;
-import java.nio.file.Paths;
 import java.util.Enumeration;
 import java.util.List;
-import java.util.Set;
 import java.util.stream.Stream;
 import java.util.zip.ZipEntry;
 
 
 /**
- * .
+ * Implementation of {@link AbstractScanner} for ZIP.
  *
  * @author <a href="mailto:AlexKomlev@gmail.com">Aleksey Komlev</a>
- * @version 21.09.2017
+ * @version 17.12.2017
  */
 public class ZipFileScanner extends AbstractScanner {
 

@@ -1,10 +1,12 @@
 package org.comlev.factograph.common;
 
-import java.util.List; /**
- * .
+import java.util.List;
+
+/**
+ * Container for matched lines.
  *
  * @author <a href="mailto:AlexKomlev@gmail.com">Aleksey Komlev</a>
- * @version 18.11.2017
+ * @version 17.12.2017
  */
 public class LineResult {
 

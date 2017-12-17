@@ -9,10 +9,10 @@ import java.util.*;
 import java.util.stream.Stream;
 
 /**
- * .
+ * Implementation of {@link AbstractScanner} for FB2.
  *
  * @author <a href="mailto:AlexKomlev@gmail.com">Aleksey Komlev</a>
- * @version 21.09.2017
+ * @version 17.12.2017
  */
 public class Fb2FileScanner extends AbstractScanner {
 

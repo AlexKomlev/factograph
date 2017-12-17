@@ -17,10 +17,10 @@ import java.util.Collection;
 import java.util.List;
 
 /**
- * .
+ * Factograph main class.
  *
  * @author <a href="mailto:AlexKomlev@gmail.com">Aleksey Komlev</a>
- * @version 11.11.2017
+ * @version 17.12.2017
  */
 public class FactoEngine {
 
